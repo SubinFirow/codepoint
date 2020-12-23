@@ -1036,7 +1036,7 @@ const  Formview=()=>{
   <div class="form-row">
   <div class="col-md-3 mb-3">
       <label for="validationServer03.1">Country</label>
-      <select class="form-control is-invalid" id="validationServer03.1" placeholder="Country" required>
+      <select class="form-control" id="validationServer03.1" placeholder="Country" required>
           {
               contries.map((country,i)=>(
 <option key={i}>{country.name}</option>
