@@ -975,7 +975,6 @@ const contries= [
     }
 ]
 const  Formview=()=>{
-    const [country, setCountry] = useState(contries)
     return(
         <div className="card w-100 py-3">
             <div className="card-body">

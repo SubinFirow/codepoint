@@ -1,11 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DefaultLayout from './layouts/default';
 import routes from "./routes";
 import {
   BrowserRouter as Router,
   Route,
-  Link
 } from "react-router-dom";
 function App() {
   return (
